@@ -1,1 +1,3 @@
-# leaflet-challenge
+# Leaflet-challenge
+
+This repository contains the code for a Leaflet map displaying information on all earthquakes in the past day according to the United States Geological Survey (USGS). The javascript file titled "logic.js" contains the map-building code, and is located in the "js" folder within the "static" folder. When opened, the html, titled "index.html", shows a map of all earthquakes varying in color according to depth and size according to magnitude. Each data point when cliked on shows the earthquake ID, magnitude, and place the earthquake occurred. The code for the legend was borrowed from https://codepen.io/haakseth/pen/KQbjdO and is denoted as such in the "logic.js" and "style.css" files.
