@@ -53,7 +53,7 @@ d3.json(url).then(function (data) {
     eq_data.addTo(myMap);
 });
 
-// Legend
+// Legend (https://codepen.io/haakseth/pen/KQbjdO)
 var legend = L.control({ position: "bottomright" });
 legend.onAdd = function(myMap) {
     var div = L.DomUtil.create("div", "legend");
